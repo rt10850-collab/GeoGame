@@ -44,13 +44,13 @@ public class QuestionManager {
 		questions.add(new Question("What is the capital of France?",
 				new String[] { "A. Berlin", "B. Madrid", "C. Paris", "D. Rome" }, 'C', 1));
 
-		questions.add(new Question("Which continent is Australia on?",
-				new String[] { "A. Asia", "B. Africa", "C. Europe", "D. Australia/Oceania" }, 'D', 1));
+		questions.add(new Question("In which continent is Australia found?",
+				new String[] { "A. Asia", "B. Africa", "C. Europe", "D. Oceania" }, 'D', 1));
 
 		questions.add(new Question("What is the largest ocean on Earth?",
 				new String[] { "A. Atlantic", "B. Indian", "C. Arctic", "D. Pacific" }, 'D', 1));
 
-		questions.add(new Question("Which country has the most people in the world?",
+		questions.add(new Question("Which country has the highest population?",
 				new String[] { "A. USA", "B. India", "C. Russia", "D. Brazil" }, 'B', 1));
 
 		questions.add(new Question("What is the capital of Japan?",
@@ -58,14 +58,20 @@ public class QuestionManager {
 
 		questions.add(new Question("What is the capital of Germany?",
 				new String[] { "A. Munich", "B. Hamburg", "C. Berlin", "D. Frankfurt" }, 'C', 1));
+		
+		questions.add(new Question("What is the capital of Poland?",
+				new String[] { "A. Prague", "B. Dresden", "C. Warsaw", "D. Kaliningrad" }, 'C', 1));
+		
+		questions.add(new Question("What is the capital of Mexico?",
+				new String[] { "A. Mexico City", "B. Merida", "C. Reno", "D. Monterry" }, 'A', 1));
 
-		questions.add(new Question("Which country is the Eiffel Tower located in?",
+		questions.add(new Question("In which country is the Eiffel Tower located?",
 				new String[] { "A. Italy", "B. Spain", "C. Germany", "D. France" }, 'D', 1));
 
 		questions.add(new Question("What is the smallest country in the world?",
 				new String[] { "A. Monaco", "B. San Marino", "C. Vatican City", "D. Liechtenstein" }, 'C', 1));
 
-		questions.add(new Question("Which continent is the Sahara Desert located on?",
+		questions.add(new Question("In which continent is the Sahara Desert located?",
 				new String[] { "A. Asia", "B. South America", "C. Australia", "D. Africa" }, 'D', 1));
 
 		questions.add(new Question("What is the capital of Australia?",
@@ -117,13 +123,13 @@ public class QuestionManager {
 		questions.add(new Question("What is the capital of South Korea?",
 				new String[] { "A. Busan", "B. Pyongyang", "C. Beijing", "D. Seoul" }, 'D', 2));
 
-		questions.add(new Question("Which river flows through Egypt?",
+		questions.add(new Question("Which major river flows through Egypt?",
 				new String[] { "A. Congo", "B. Niger", "C. Nile", "D. Zambezi" }, 'C', 2));
 
 		questions.add(new Question("What is the largest country in South America by area?",
 				new String[] { "A. Argentina", "B. Peru", "C. Brazil", "D. Colombia" }, 'C', 2));
 
-		questions.add(new Question("Which country is home to the Great Barrier Reef?",
+		questions.add(new Question("Which country is known for the Great Barrier Reef?",
 				new String[] { "A. New Zealand", "B. Philippines", "C. Indonesia", "D. Australia" }, 'D', 2));
 
 		questions.add(new Question("What is the capital of Turkey?",
@@ -131,24 +137,24 @@ public class QuestionManager {
 
 		questions.add(new Question("Which mountain range runs along the western coast of South America?",
 				new String[] { "A. Rockies", "B. Alps", "C. Himalayas", "D. Andes" }, 'D', 2));
+		
+		questions.add(new Question("Which country contains the most of the Amazon Rainforest?",
+				new String[] { "A. Peru", "B. Colombia", "C. Venezuela", "D. Brazil" }, 'D', 2));
+		
 
 		// — Hard Questions (difficulty = 3) —
 
 		questions.add(new Question("What is the capital of Kazakhstan?",
 				new String[] { "A. Almaty", "B. Tashkent", "C. Astana", "D. Bishkek" }, 'C', 3));
 
-		questions.add(
-				new Question("Which country is home to the Danakil Depression, one of the hottest places on Earth?",
+		questions.add(new Question("Which country is home to the Danakil Depression, one of the hottest places on Earth?",
 						new String[] { "A. Somalia", "B. Sudan", "C. Ethiopia", "D. Djibouti" }, 'C', 3));
 
 		questions.add(new Question("What is the smallest country in South America by land area?",
 				new String[] { "A. Uruguay", "B. Suriname", "C. Guyana", "D. Ecuador" }, 'B', 3));
 
-		questions.add(new Question("Lake Titicaca sits on the border of which two countries?", new String[] {
-				"A. Brazil and Bolivia", "B. Peru and Bolivia", "C. Peru and Chile", "D. Argentina and Chile" }, 'B', 3));
-
 		questions.add(new Question("Which ocean does the Mozambique Channel belong to?",
-				new String[] { "A. Atlantic", "B. Pacific", "C. Indian", "D. Southern" }, 'C', 3));
+				new String[] { "A. Atlantic", "B. Pacific", "C. Indian", "D. African" }, 'C', 3));
 
 		questions.add(new Question("What is the capital of Kyrgyzstan?",
 				new String[] { "A. Almaty", "B. Bishkek", "C. Dushanbe", "D. Tashkent" }, 'B', 3));
@@ -165,13 +171,10 @@ public class QuestionManager {
 		questions.add(new Question("What is the smallest country in Asia by land area?",
 				new String[] { "A. Singapore", "B. Maldives", "C. Bahrain", "D. Brunei" }, 'B', 3));
 
-		questions.add(new Question("Which country contains the most of the Amazon Rainforest?",
-				new String[] { "A. Peru", "B. Colombia", "C. Venezuela", "D. Brazil" }, 'D', 3));
-
 		questions.add(new Question("What is the capital of Eritrea?",
 				new String[] { "A. Mogadishu", "B. Asmara", "C. Djibouti", "D. Addis Ababa" }, 'B', 3));
 
-		questions.add(new Question("Which country is the Patagonia region primarily located in?",
+		questions.add(new Question("In country is the Patagonia region primarily located?",
 				new String[] { "A. Chile", "B. Bolivia", "C. Argentina", "D. Peru" }, 'C', 3));
 
 		questions.add(new Question("What is the longest river in Europe?",
@@ -179,7 +182,13 @@ public class QuestionManager {
 
 		questions.add(new Question("Which African country has the most pyramids?",
 				new String[] { "A. Egypt", "B. Sudan", "C. Ethiopia", "D. Libya" }, 'B', 3));
+		
+		questions.add(new Question("Which Italian City Contains the city-state of Vatican City?",
+				new String[] { "A. Naples", "B. Rome", "C. Venice", "D. Florence " }, 'B', 3));
 
+		questions.add(new Question("Out of these fallen empires, witch fell last?",
+				new String[] { "A. Abyssinian Empire", "B. Ottoman Empire", "C. Roman Empire", "D. Spanish Empire " }, 'A', 3));
+		
 	}
 
 	/**
